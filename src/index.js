@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import * as serviceWorker from "./serviceWorker";
+import App from './App';
 import "./index.css";
-import CardList from "./CardList.js";
 import 'tachyons';
 import {robots} from './robots.js'; //{} here in case we have other stucture like Cats ..
 
@@ -10,7 +10,7 @@ import {robots} from './robots.js'; //{} here in case we have other stucture lik
 
 //Remeber to return only one element inside render, use <div>
 ReactDOM.render(
-  <CardList robots={robots}/>,
+  <App/>,
   document.getElementById("root")
 );
 
