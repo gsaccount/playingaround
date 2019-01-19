@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import * as serviceWorker from "./serviceWorker";
-import App from './App';
+import App from './containers/App';
 import "./index.css";
 import 'tachyons';
-import {robots} from './robots.js'; //{} here in case we have other stucture like Cats ..
+//{} here in case we have other stucture like Cats ..
 
 
 

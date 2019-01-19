@@ -13,7 +13,7 @@ import './Card.css';
     //const {name, email , id } = props; // destructor
     //use ` inside the image for the ${id} to get recognized, use ?set=set4 to view cats instead
     return(
-        <div  className='fl w-25 bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5'>
+        <div  className=' bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5'>
             <img alt='robots' src={`https://robohash.org/${id}?size=250x250`}/>
             <div>
                 <h3>{name}</h3>                
